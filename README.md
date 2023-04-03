@@ -21,7 +21,8 @@ DailyReportGenerator 是一个自动生成日报的程序，它从日历和任�
 
 点击下面的按钮，根据提示在 Railway 平台上部署此项目。
 
-[](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fyourusername%2FDailyReportGenerator&envs=API_KEY%2CCALDAV_URL%2CTASK_API_URL%2COPENAI_API_KEY%2CEMAIL_CONFIG)
+[![Deploy to Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/your_username/your_repository_name&envs=CALDAV_EMAIL,CALDAV_PASSWORD,CALDAV_URL,TASK_API_URL,OPENAI_API_KEY,EMAIL_CONFIG)
+
 
 ### 使用 Docker 进行部署
 
