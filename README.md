@@ -44,11 +44,13 @@ cd DailyReportGenerator
 
 3.  创建一个 `.env` 文件，设置环境变量：
 
-makefile
+
 
 ```makefile
 API_KEY=your_api_key
 CALDAV_URL=your_caldav_url
+CALDAV_EMAIL= your_caldav_email
+CALDAV_PASSWORD= your_caldav_password
 TASK_API_URL=your_task_api_url
 OPENAI_API_KEY=your_openai_api_key
 EMAIL_CONFIG=your_email_config
@@ -56,11 +58,10 @@ EMAIL_CONFIG=your_email_config
 
 4.  使用 Docker 构建镜像：
 
-`docker build -t daily-report-generator .`
+`docker-compose up -d`
 
 5.  使用 Docker 运行容器：
 
-css
 
 ```css
 docker run -d --name daily-report-generator --env-file .env -p 8080:8080 daily-report-generator
