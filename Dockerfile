@@ -1,13 +1,10 @@
-FROM node:16
+FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY package*.json ./
-
-RUN npm install
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-EXPOSE 8080
-
-CMD [ "node", "index.js" ]
+CMD ["gunicorn", "-c", "gunicorn_config.py", "wsgi:app"]

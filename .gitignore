@@ -1,1 +1,16 @@
-.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+config/.env
+certs/
+*.sqlite
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.DS_Store
+.vscode/
+.idea/

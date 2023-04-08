@@ -1,14 +1,15 @@
-version: '3.8'
+version: "3.9"
 
 services:
-  app:
+  web:
     build: .
     ports:
-      - '8080:8080'
+      - "8080:8080"
     environment:
-      CALDAV_EMAIL: your_email_address
-      CALDAV_PASSWORD: your_password
-      CALDAV_URL: your_caldav_url
-      TASK_API_URL: your_task_api_url
-      OPENAI_API_KEY: your_openai_api_key
-      EMAIL_CONFIG: your_email_config
+      - PORT=8080
+    volumes:
+      - .:/app
+      - certs:/certs
+
+volumes:
+  certs:
