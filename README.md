@@ -8,10 +8,11 @@ This one will report your daily work to your sharholder.
 2. Send to chatgpt to make a daily log
 3. put daily log on website
 
+Finished:
+- ✅ ADD database
 
 TODO
 - [ ] Finish Readme
-- [x] ADD database
 - [ ] ADD Safety Setting 
 - [ ] Feishu/lark/dingtalk send message automatically (use webhook)
 
