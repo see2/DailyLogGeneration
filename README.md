@@ -9,7 +9,7 @@ This one will report your daily work to your sharholder.
 3. put daily log on website
 
 Finished:
-- ✅ ADD database
+- [x]:white_check_mark: ADD database
 
 TODO
 - [ ] Finish Readme
