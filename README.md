@@ -12,7 +12,6 @@ This one will report your daily work to your sharholder.
 TODO
 - [ ] Finish Readme
 - [x] ADD database
-- [ ]
 - [ ] ADD Safety Setting 
 - [ ] Feishu/lark/dingtalk send message automatically (use webhook)
 
